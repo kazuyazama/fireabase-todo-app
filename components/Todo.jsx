@@ -17,7 +17,7 @@ const Todo = ({ data, handleUpdate, handleDelete, handleComplete }) => {
   return (
     <div className="">
       {data && (
-        <div key={data.id} className="flex justify-between">
+        <div key={data.id} className="flex justify-between overflow-scroll">
           <div className="flex items-center gap-2 my-2">
             <input
               type="text"
